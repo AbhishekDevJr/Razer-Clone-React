@@ -11,7 +11,8 @@ class App extends Component {
   render(){
     return(
       <div className = "App-div">
-        <Navbar />
+        <Navbar linkText1 = "Store" linkText2 = "PC" linkText3 = "Console" linkText4 = "Mobile" linkText5 = "Lifestyle"
+        linkText6 = "Services" linkText7 = "Community" linkText8 = "Support"/>
       </div>
     );
   }

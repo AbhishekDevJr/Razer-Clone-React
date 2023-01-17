@@ -11,18 +11,20 @@ class Navbar extends Component {
             <div className = "nav-bar">
                 <nav>
                     <a href = "https://www.razer.com/"><img src = "razer-logo.svg" alt = "Razer Icon" /></a>
-                    <a href = "https://www.razer.com/store">Store</a>
-                    <a href = "https://www.razer.com/pc">PC</a>
-                    <a href = "https://www.razer.com/console">Console</a>
-                    <a href = "https://www.razer.com/mobile">Mobile</a>
-                    <a href = "https://www.razer.com/lifestyle">Lifestyle</a>
-                    <a href = "https://www.razer.com/services">Services</a>
-                    <a href = "https://www.razer.com/community">Community</a>
-                    <a href = "https://support.razer.com/">Support</a>
-                    <a href = "/"><img src = "magnifying-glass-solid.svg" alt = "Search Icon" /></a>
-                    <a href = "/"><img src = "cart-shopping-solid.svg" alt = "Cart Icon" /></a>
-
+                    <a href = "https://www.razer.com/store">{this.props.linkText1}</a>
+                    <a href = "https://www.razer.com/pc">{this.props.linkText2}</a>
+                    <a href = "https://www.razer.com/console">{this.props.linkText3}</a>
+                    <a href = "https://www.razer.com/mobile">{this.props.linkText4}</a>
+                    <a href = "https://www.razer.com/lifestyle">{this.props.linkText5}</a>
+                    <a href = "https://www.razer.com/services">{this.props.linkText6}</a>
+                    <a href = "https://www.razer.com/community">{this.props.linkText7}</a>
+                    <a href = "https://support.razer.com/">{this.props.linkText8}</a>
+                    <a href = "/"><img src = "search.png" alt = "Search Icon" className = "icons"/></a>
+                    <a href = "/"><img src = "icons8-shopping-cart-48.png" alt = "Cart Icon" className = "icons"/></a>
                 </nav>
+                <div className = "tempDiv">
+                    <p>New Year’s Specials: Ready up for 2023 with our best picks and latest CES releases. <a href = "https://www.razer.com/campaigns/new-year-2023">Shop Now </a></p>
+                </div>
             </div>
         );
     }
