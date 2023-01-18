@@ -23,7 +23,7 @@ class Navbar extends Component {
                     <a href = "/"><img src = "icons8-shopping-cart-48.png" alt = "Cart Icon" className = "icons"/></a>
                 </nav>
                 <div className = "tempDiv">
-                    <p>New Year’s Specials: Ready up for 2023 with our best picks and latest CES releases. <a href = "https://www.razer.com/campaigns/new-year-2023">Shop Now </a></p>
+                    <p>New Year’s Specials: Ready up for 2023 with our best picks and latest CES releases. <a href = "https://www.razer.com/campaigns/new-year-2023">Shop Now &#62;</a></p>
                 </div>
             </div>
         );

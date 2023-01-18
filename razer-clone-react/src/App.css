@@ -5,6 +5,7 @@
 body{
   padding : 0;
   margin : 0;
+  background-color : #222;
 }
 nav{
   display : flex;
@@ -17,7 +18,10 @@ nav{
   padding-left : 10vw;
   padding-top : 0.6%;
   padding-bottom : 0.6%;
-  border-bottom : 1px solid #44D62C
+  border-bottom : 1px solid #44D62C;
+  position : fixed;
+  top : 0px;
+  width : 100%;
 }
 
 nav a{
@@ -46,8 +50,10 @@ nav img {
   border : 1px solid transparent;
   font-family : Roboto,sans-serif;
   font-size : 14px;
-  padding-left : 30%;
-  padding-right : 30%;
+  padding-left : 29%;
+  padding-right : 29%;
+  padding-top : 8vh;
+  letter-spacing : 0.3px;
 }
 
 .tempDiv a{
@@ -57,4 +63,9 @@ nav img {
 
 .tempDiv a:hover {
   text-decoration : underline;
+}
+
+.banner-div img {
+  max-width:100%; 
+  height:auto;
 }
