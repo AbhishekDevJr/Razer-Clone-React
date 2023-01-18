@@ -67,5 +67,18 @@ nav img {
 
 .banner-div img {
   max-width:100%; 
+  
   height:auto;
+}
+
+.side-banner {
+  margin-top : 0.8vh;
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  align-items : center;
+}
+
+.side-banner img {
+  width : 49.1vw;
 }
