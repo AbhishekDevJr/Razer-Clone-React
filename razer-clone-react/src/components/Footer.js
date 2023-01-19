@@ -64,8 +64,8 @@ class Footer extends Component {
                 <div className = "line-element"></div>
                 <div className = "trademark">
                     <p>Developed and Maintained by © Abhishek Choudhari</p>
-                    <a href = "https://github.com/AbhishekDevJr"><img src = "icons8-github-48.png" alt = "GitHub Icon"/></a>
-                    <a href = "https://www.linkedin.com/in/abhishek-choudhari-408526173/"><img src = "icons8-linkedin-circled-48.png" alt = "GitHub Icon"/></a>
+                    <a href = "https://github.com/AbhishekDevJr" target = "_blank"><img src = "icons8-github-48.png" alt = "GitHub Icon"/></a>
+                    <a href = "https://www.linkedin.com/in/abhishek-choudhari-408526173/" target = "_blank"><img src = "icons8-linkedin-circled-48.png" alt = "GitHub Icon"/></a>
                 </div>
             </div>
             </>
