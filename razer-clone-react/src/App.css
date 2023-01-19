@@ -131,4 +131,44 @@ li a:hover {
   margin-right : 4px;
 }
 
+.divider-line {
+  background-color : #111;
+  padding-top : 5vh;
+  padding-bottom : 3vh;
+  padding-left : 10vw;
+  padding-right : 7vw;
+}
+
+.line-element {
+  border-bottom : 1px solid #555;
+}
+
+.trademark {
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  align-items : center;
+  font-family : Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  color : #999;
+  font-size : 14px;
+  width : 50%;
+  padding-top : 1vh;
+}
+
+.trademark img {
+  height : auto;
+  width : 70%;
+  transform : rotateZ(0deg);
+  transition : 0.4s;
+}
+
+.trademark img:hover {
+  transform : rotateZ(360deg);
+  transition : 0.4s;
+}
+
+.trademark p:hover{
+  color : white;
+}
+
 
