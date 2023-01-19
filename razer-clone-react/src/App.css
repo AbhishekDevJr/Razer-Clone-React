@@ -82,3 +82,53 @@ nav img {
 .side-banner img {
   width : 49.1vw;
 }
+
+footer {
+  background-color : #111;
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  align-items : flex-start;
+  padding-left : 8vw;
+  padding-right : 7vw;
+  padding-top : 1vh;
+  font-family : Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size : 12px;
+}
+
+ul {
+  list-style: none;
+  line-height: 4vh;
+}
+
+.li-1st {
+  color : #fff;
+}
+
+li a {
+  color : #999;
+  text-decoration : none;
+}
+
+li a:hover {
+  text-decoration : underline;
+  color : white;
+}
+
+.gamers {
+  color : #44d62c;
+  padding-top : 1.1vh;
+  font-size : 14px;
+}
+
+.gamers div {
+  float: right;
+  margin-top : -1.5vh;
+}
+
+.gamers div a {
+  margin-left : 4px;
+  margin-right : 4px;
+}
+
+
